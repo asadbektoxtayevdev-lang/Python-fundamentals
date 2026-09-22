@@ -1,0 +1,114 @@
+# 2- masala
+'''M = float(input("Kilogramm : "))
+natija = M/1000
+print(natija)'''
+
+# 3-masala
+# bayt = int(input("Bayt hajmi : "))
+# Kbayt = bayt/1024
+# print("Natija : ", Kbayt)
+
+#4-masala
+# num = int(input("Raqam : "))
+# a = num//10
+# b = num%10
+# print(f"1-son : {a}, 2-son : {b}")
+
+#5-masala
+# num = int(input("Raqam: "))
+# a = num//10
+# b = num%10
+# print(f"{a} + {b} =",a+b)
+
+#6-masala
+# num = int(input("Raqam: "))
+# a = num//10
+# b = num%10
+# print(f"Teskari raqam: {b}{a}")
+
+#natija = num//10%10
+
+#7-masala
+'''num = int(input("Raqam: "))
+a = num//100
+print("Natija: ", a)'''
+
+#8-masala
+'''num = int(input("Raqam: "))
+a = num//10%10
+b = num%10
+print(b, ',', a)'''
+
+#10-masala
+'''num = int(input("Raqam: "))
+a = num//100
+b = num//10%10
+c = num%10
+print(c,b,a)
+'''
+#9-masala
+'''num = int(input("Raqam: "))
+a = num//100
+b = num//10%10
+c = num%10
+print("Natija: ", a+b+c)'''
+
+#11-masala 
+'''num = int(input("Raqam: "))
+a = num//100
+c = num%100
+print(f"{c}{a}")'''
+
+#12-masala
+'''num = int(input("Raqam: "))
+a = num%10
+c = num//10
+print(f"{a}{c}")'''
+
+#13-masala
+'''num = int(input("Raqam: "))
+a = num100//10
+b = num//100
+c = num%10
+print(f"{a}{b}{c}")'''
+
+#14-masala
+'''num = int(input("Raqam: "))
+a = num//100
+b = num%10
+c = num//10%10
+print(f"{a}{b}{c}")
+'''
+
+#15-masala
+'''num = int(input("Raqam: "))
+a = num//100%10
+print("n = ", num, "javob : ", a )'''
+
+#16-masala
+'''num = int(input("Raqam: "))
+a = num//1000
+print("n = ", num, "javob : ", a )'''
+
+#17-masala
+'''sek = int(input("Sekund: "))
+minut = sek//60
+print("Natija : ", minut)'''
+
+#18-masala
+'''sek = int(input("Sekund: "))
+hour = sek//3600
+print("Natija : ", hour)'''
+
+#19-masala
+'''sek = int(input("Sekund: "))
+minut = sek//60
+sek_p = sek%60 
+print(minut, "min ", sek_p,"s")'''
+
+#20-masala
+sek = int(input("Sekund: "))
+hour = sek//3600
+minut = sek%3600//60
+sek_p = sek%60
+print(hour, "soat", minut, "min", sek_p ,"s")
