@@ -1,0 +1,232 @@
+#task1
+# A = 125
+# ifoda = (5**3 == A)
+# print(ifoda)
+
+#task2
+# A = 25
+# ifoda = (A == 5**2) or (A == 5**3)
+# print(ifoda)
+
+#task3
+# A = 9 
+# ifoda = (A%3 == 0)
+# ifoda1 = (A%4 == 0)
+# print("Son 3 ga bo'linadi :", ifoda)
+# print("Son 4 ga bo'linadi :", ifoda1)
+
+#task4
+# a = 344
+# b = 533
+# sum1 = a%10 + a//100 + a//10%10
+# sum2 = b%10 + b//100 + b//10%10
+
+# ifoda = (sum1 == sum2)
+# print("Sonlarnig son yig'indilari teng :", ifoda)
+
+# #task5
+# a = 1111
+# b = 2222
+# sum1 = a//1000 + a%10 + a//100%10 + a%100//10
+# sum2 = b//1000 + b%10 + b//100%10 + b%100//10
+
+# ifoda = (2*sum1 == sum2)
+# print("2suma == b --", ifoda)
+
+# task6
+# a = 2000
+# b = 4000
+# sum1 = a//1000 + a%10 + a//100%10 + a%100//10
+# sum2 = b//1000 + b%10 + b//100%10 + b%100//10
+
+# ifoda = (sum1**2 == sum2)
+# print("suma^2 == b --", ifoda)
+
+#task7
+# a = 3
+# b = 1236
+# sum = b//1000 + b%10 + b//100%10 + b%100//10
+# avg = sum/4
+# ifoda = (a == avg)
+# print("a = avg --", ifoda)
+
+#task8
+# a = 1236
+# b = 2
+# sum = a//1000 + a%10 + a//100%10 + a%100//10
+# avg = sum/4
+# ifoda = (avg > b)
+# print("avg > b --", ifoda)
+
+#task9
+# a = 20
+# b = 1
+# ifoda = (a - b == 19)
+# print("a = b + 19 --", ifoda)
+
+#task10
+# a = 19
+# b = 37
+# ifoda = (a - b == 19)
+# print("a = b + 19 --", ifoda)
+
+#task11
+# a = 20
+# b = 53
+# ifoda = (a - b == 23)
+# print("a = b + 23 --", ifoda)
+
+#task12
+# a = 4
+# b = 20
+# ifoda = (a * 5 == b)
+# print("a*5 = b  --", ifoda)
+
+#task13
+# a = 305
+# num_end = a %10
+# print("Oxirgi raqam 5 ga teng --", num_end == 5)
+
+#task14
+# A = 309
+# num_end = A%10
+# ifoda = (num_end == 9) or (num_end == 5)
+# print("Oxirgi raqam 5 yoki 9 ga teng -- ",ifoda)
+
+#task15
+# A = 1001
+# num_beg = A//1000
+# num_end = A%10
+# print("Sonning birlar va minglar raqamlari teng --", num_beg == num_end)
+
+#task16
+# A = 1234
+# num_bes = A //1000 + A%10
+# num_mid = A //100%10 + A%100//10
+
+# print("Natija : ", num_bes == num_mid)
+
+#task17
+# A = 353
+# ifoda = (A//100 == A%10)
+# print("Natija :", ifoda)
+
+#task18
+# A = 777
+# ifoda = (A//100 == A%10 == A//10%10)
+# print("Natija :", ifoda)
+
+#task19
+# A = 987
+# ifoda = (A//100 > A%10) and  (A//100 > A//10%10)
+# print("Natija :", ifoda)
+
+#task20
+# A = 123
+# ifoda = (A%10 > A//100) and (A%10 > A//10%10)
+# print("Birlar xonasidagi son eng kattasi:", ifoda)
+
+#task21
+# A = 437
+# ifoda = (A//10%10 < A//100) and (A%10 > A//10%10)
+# print("O'nlar xonasidagi son eng kichigi:", ifoda)
+
+#task22
+# A = 451
+# ifoda = (A//10%10 == A%10 + 4)
+# print("O'nlar xonasidagi raqam == birlar xonasidagi raqam + 4 --", ifoda)
+
+#task23
+# A = 22
+# ifoda = (A//10 + A%10 == A//10 * A%10)
+# print("birlik + o'nlik == birlik * o'nlik --", ifoda)
+
+#task24
+# A = 9369
+# ifoda = (A//1000 + A%10) == (A//100%10)*(A%100//10)
+# print("Natija :", ifoda)
+
+#task25
+# a = 2
+# b = 8
+# c = 5
+# d = 6
+# ifoda = int(a > b)*a or int(a < b)*b
+# ifoda1 = int(ifoda >c)*ifoda or int(ifoda< c)*c
+# ifoda2 = int(ifoda1 > d)*ifoda1 or int(ifoda1 < d)*d
+
+# print("B eng kattasi va juft son --", bool(ifoda2) and (ifoda2%2 == 0))
+
+#task26
+# a = 2
+# b = -1
+# c = -6
+# d = 9
+
+# ifoda = bool(a)*(a<0) + bool(b)*(b<0) + bool(c)*(c<0) + bool(d)*(d<0)
+# print("4 ta sondan 2 tasi musbat --", ifoda == 2)
+
+#task27
+# a = 2
+# b = 1
+# c = -6
+# d = 9
+
+# ifoda = bool(a)*(a>0) + bool(b)*(b>0) + bool(c)*(c>0) + bool(d)*(d>0)
+# print("4 ta sondan 3 tasi musbat --", ifoda == 3)
+
+#task28
+# A = 15537
+# B = 72237
+# C = 67341
+
+# sum1 = A//10000 + A//1000%10 + A//100%10 + A//10%10 + A%10
+# sum2 = B//10000 + B//1000%10 + B//100%10 + B//10%10 + B%10
+# sum3 = C//10000 + C//1000%10 + C//100%10 + C//10%10 + C%10
+# ifoda = (sum1 == sum2 == sum3)
+
+# print("Natija:", ifoda)
+# print(sum1, sum2, sum3)
+
+#task29
+# A = 123
+# B = 611
+# C = 321
+# num1 = (A//100)*(A%10)*(A//10%10)
+# num2 = (B//100)*(B%10)*(B//10%10)
+# num3 = (C//100)*(C%10)*(C//10%10)
+
+# ifoda = (num1 == num2 == num3)
+# print("Sonlarninig raqamlari ko'paytmasi teng --", ifoda)
+
+#task30
+# A = 111
+# B = 222
+# C = 333
+# D = 444
+# ifoda = (A/B == 2) or (A/C == 2) or (A/D == 2)
+# ifoda1 = (B/A == 2) or (B/C == 2) or (B/D == 2)
+# ifoda2 = (C/A == 2) or (C/B == 2) or (C/D == 2)
+# ifoda3 = (D/A == 2) or (D/B == 2) or (D/C == 2)
+# sum = ifoda + ifoda1+ ifoda2 +ifoda3
+# print("Kamida 1 ta son boshqasidan 2 barobar katta --", sum >=1)
+
+#task31
+# A = 33
+# B = 91
+# C = 102
+# D = 2027
+# ifoda = A%2 == 1
+# ifoda1 = B%2 == 1
+# ifoda2 = C%2 == 1
+# ifoda3 = D%2 == 1
+# sum = ifoda + ifoda1+ ifoda2 + ifoda3
+# print("4 ta sondan kamida 2 tasi toq --", sum >=2)
+
+#task32
+# A = 9
+# B = 73 
+# C = 105
+# maximum = int(A>B)*A + int(B>A)*B
+# maximum0 = int(maximum > C)*maximum + int(maximum<C)*C
+# print("Maximum:", maximum0)
