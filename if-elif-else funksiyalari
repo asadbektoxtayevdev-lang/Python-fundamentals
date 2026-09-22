@@ -1,0 +1,259 @@
+#task0
+# age = int(input("Yoshni kiriting:"))
+# if age >= 7 and age <=9:
+#     print("Qabul qilindi!!!")
+# elif age < 0:
+#     print("Qayta kiriting")
+# elif age < 7:
+#     print(f"{7-age} yildan keyin kelasiz")
+# else:
+#     print("Yoshingiz o'tib qolipti")
+
+#task1
+# a = int(input("A ni kiriting :"))
+# b = int(input("B ni kiriting :"))
+# c = int(input("C ni kiriting :"))
+
+# if a > b and a > c:
+#     print("A eng katta son")
+# elif b > a and b > c:
+#     print("B eng katta son")
+# elif c > b and c > a:
+#     print("C eng katta son")
+
+#task2
+# a = int(input("A ni kiriting :"))
+# b = int(input("B ni kiriting :"))
+# c = int(input("C ni kiriting :"))
+
+# if a < b < c:
+#     print(a,b,c)
+# elif a < c < b:
+#     print(a,c,b)
+# elif b < a < c:
+#     print(b,a,c)
+# elif b < c < a:
+#     print(b,c,a)
+# elif c < a < b:
+#     print(c,a,b)
+# elif c < b < a:
+#     print(c,b,a)
+    
+#task3
+# num = int(input("Son kiriting : "))
+
+# if  num == 0:
+#     print("Nolga teng")
+# elif 10 <= num <= 99:
+#     print("2 xonali musbat")
+# elif 100 <= num <= 999:
+#     print(" 3 xonali musbat")
+# elif -10 >= num >= -100:
+#     print(" 2 xonali manfiy")
+# elif -100 >= num >= -999:
+#     print("3 xonali manfiy") 
+# elif 1 <= num <=9:
+#     print("1 xonali musbat")
+# elif -1>= num >= -9:
+#     print("1 xonali manfiy")
+
+#task4
+# num = int(input("Son : "))
+
+# if 1 <= num <= 9:
+#     print("1 xonali son")
+# elif 10 <= num <= 99:
+#     print("2 xonali son")
+# elif 100 <= num <= 999:
+#     print("3 xonali son")
+# elif 1000 <= num <= 9999:
+#     print("4 xonali son")
+
+#task5
+# grade = int(input("Baho : "))
+
+# if 0 <= grade <= 55:
+#     print("Qoniqarsiz")
+# elif 56 <= grade <= 70:
+#     print("Qoniqarli")
+# elif 71 <= grade <= 85:
+#     print("Yaxshi")
+# elif 86 <= grade <= 100:
+#     print("A'lo")
+
+#task6
+# num = int(input("Son : "))
+
+# if num%10 == num//100:
+#     print("Polindrom")
+# else:
+#     print("Polindrom emas")
+
+#task7
+# num = int(input("Son : "))
+# if num%10 - num//10%10 == num//10%10 - num//100 == 1:
+#     print("ketma-ket o'suvchi")
+# elif num//100 - num//10%10 == num//10%10 - num%10 == 1:
+#     print("kamayuvchi")
+
+#task8
+# a = int(input("Son1 : "))
+# b = int(input("Son2 : "))
+# c = int(input("Son3 : "))
+# if (a == b) or (a == c)  or (b == c):
+#     print("Hech bo'lmaganda 2 ta son bir-biriga teng") 
+
+#task9
+# date = int(input("Sanani kiriting : "))
+# bill = int(input("Jarima miqdori(UZS) : "))
+
+# if date < 3:
+#     print("Jarima miqdori : ", bill * 0.9 ,"UZS")
+# elif date > 15:
+#     print("Jarima miqdori : ", bill * 1.1 ,"UZS")
+
+#task10
+# temp = int(input("Haroratni kiriting : "))
+
+# if temp < 25:
+#     print("Oynalar yopilsin")
+# elif temp >25:
+#     print("Oynalar ochilsin")
+
+#task11
+# print("Yashil: 1, Sariq: 2, Qizil: 3")
+# n = int(input("Raqamni tanlang : "))
+
+# if n == 1:
+#     print("Harakatni davom qiling")
+# elif n == 2:
+#     print("Harakatlanishga tayyorlaning")
+# elif n ==3:
+#     print("Harakatni to'xtating")
+
+#task12
+# a = int(input("son1 --"))
+# b = int(input("son2 --"))  
+# c = int(input("son3 --"))
+
+# if a > b and a > c and b > c:
+#     print("min = ", c, "max = ", a)
+# elif a > b and a > c and c > b:
+#     print("min = ", b, "max = ", a)
+# elif b > a and b > c and c > a:
+#     print("min = ", a, "max = ", b)
+# elif b > a and b > c and c < a:
+#     print("min = ", c, "max = ", b)   
+# elif c > a and b < c and b > a:
+#     print("min = ", a, "max = ", c)
+# elif c > a and b < c and b < a:
+#     print("min = ", b, "max = ", c)    
+
+#task13
+# minimumWage = int(input("Min maoshni kiriting : "))
+# salary = int(input("Maoshni kiriting : "))
+
+# if salary <= 5 * minimumWage:
+#     tax = salary * 0.09
+# elif salary <= 10 * minimumWage:
+#     tax = salary * 0.16
+# else:
+#     tax = salary * 0.23
+    
+# print("Soliq : ", tax)
+    
+#task14
+# n = int(input("Raqamni kiriting : "))
+
+# if n == 101:
+#     print("O't o'chirish xizmati")
+# elif n == 102:
+#     print("Militsiya xizmati")
+# elif n == 103:
+#     print("tez tibbiy yordam xizmati")
+# elif n == 104:
+#     print("tabiiy gaz xizmati")
+
+#task15
+# password = input("Parolni kiriting : ")
+
+# if password == "Aziz20":
+#     print("Assalomu alaykum Azizbek, Xush kelibsiz")
+# else:
+#     print("Siz xato passwodni kiritdingiz")
+
+#task16
+# A = 'a'
+# B = 'b'
+# C = 'c'
+
+# if A != B != C:
+#     print("Natija 0")
+# elif A == B or A == C or B == C:
+#     print("Natija 10")
+# elif A == B == C:
+#     print("Natija 20")
+
+#task17
+# z_miqdori = int(input("Zaryad miqdorini kiriting : "))
+
+# if z_miqdori <= 20:
+#     print("Mashinani qayta quvvatlang")
+# elif 21 <= z_miqdori <=40:
+#     print("Mashinada kam zaryad miqdori mavjud")
+# elif 41 <= z_miqdori <= 100:
+#     print("Mashinada quvvat miqdori yetarlicha")
+
+#task18
+'''n = int(input("Sonni kiriting : "))
+# n //10 = 55 = 5 ellik, 55%10 = 5 besh
+
+if n//10 == 1:
+    print("o'n ")
+elif n//10 == 2:
+    print("yigirma")   
+elif n//10 == 3:
+    print("o'ttiz ") 
+elif n//10 == 4:
+    print("qirq ")
+elif n//10 == 5:
+    print("ellik ")
+elif n//10 == 6:
+    print("oltmish ")
+elif n//10 == 7:
+    print("yetmish ")
+elif n//10 == 8:
+    print("sakson ")
+elif n//10 == 9:
+    print("to'qson ")
+
+if n%10 == 1:
+    print("bir")
+elif n%10 == 2:
+    print("ikki")
+elif n%10 == 3:
+    print("uch") 
+elif n%10 == 4:
+    print("to'rt")  
+elif n%10 == 5:
+    print("besh")
+elif n%10 == 6:
+    print("olti")
+elif n%10 == 7:
+    print("yetti")
+elif n%10 == 8:
+    print("sakkiz")
+elif n%10 == 9:
+    print("to'qqiz")'''
+
+#task19
+K = int(input("Energiya : "))
+D = int(input("Masofa : "))
+
+K1 = D * 0.4
+if K < K1:
+    print("Yana ", K1-K, "% zaryad kerak")
+else:
+    print("Zaryad yetarli")
+
+
