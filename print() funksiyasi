@@ -1,0 +1,119 @@
+# print("Hello world !!!")
+# Uycha
+'''
+print("     /\\   ")
+print("    /  \\   ")
+print("   /    \\   ")
+print("  /______\\   ")
+print("  |       |")
+print("  |   o   |")
+print("  |       |")
+print("  |   _   |")
+print("  |__| |__|")
+'''
+# Kubik
+'''
+
+print("         ...........  ")
+print("       . .       . .  ")
+print("     .   .     .   .  ")
+print("   .     .   .     .  ")
+print(" ...........       .  ")
+print(" .       ...........  ")
+print(" .     .   .     .    ")
+print(" .   .     .   .      ")
+print(" . .       . .        ")
+print(" ...........          ")
+
+'''
+
+#Fil
+'''
+print("                             ")
+print("           ___     ___       "     )
+print("          /   \\~~~/   \\     "   )
+print("    ,----(      . .    )    "   )
+print("   /      \\___       __/    "   )
+print("  /|          (\\     |(      "     )
+print(" ^  \\    /___\\ /\\    |      "      )
+print("     |___|   |___|-''      "       )
+
+'''
+#Mushuk
+"""
+print("  __                         ")
+print(" (  \                       ")
+print("   )  )                      ")
+print("   (  (    .-''''-.  A.-.A              ")
+print("     \  \/         \/ , , \               ")
+print("       \   \       =;  t  /=             ")
+print("        \    |''''- ' ,--'                   ")
+print("         /  //   |  ||                   ")
+print("        /_,))    |_,))                         ")
+print("                                         ")
+
+"""
+
+#Kuchuk
+"""
+
+print("        | `_         ")
+print("        /  '--       ")
+print("            _/        ")
+print("       ****`             ")
+print("      /      }       ")
+print("     /    \ /       ")
+print(" \ /`     \\\        ")
+print("  `\      /_\\         ")
+print("                           ")
+print("    `~~~~~``~`                    ")
+
+"""
+
+#Archa
+"""
+
+print("        *                 ")
+print("        =                 ")
+print("       $$$                  ")
+print("      $$$$$                  ")
+print("     $$$$$$$                   ")
+print("    $$$$$$$$$                    ")
+print("   $$$$$$$$$$$                      ")
+print(" $$$$$$$$$$$$$$$          ")
+print("       |||                 ")
+print("       |||                 ")
+print("       |||                 ")
+
+"""
+#Dinozavr
+
+'''
+print("   *******                                              ")
+print(" *   *    *                                         ")
+print(" *        ****                                       ")
+print("   *****    *                                           ")
+print("       *     ****                                     ")
+print("       *     *    * *    ***                            ")
+print("       *     *   *   *  *   *    ***          * *          ")
+print("       *     *   *   *  *   *   *   *       *   *         ")
+print("       *     *   *   *  *   *   *   *     *    *          ")
+print("       *      ****   ****   *********   *     *          ")
+print("       *          ***    ***          *     *            ")
+print("       *                                  *             ")
+print("       *                               *              ")
+print("         *       ********           *                        ")
+print("         *      *        *       *                  ")
+print("         *      *        *       *                   ")
+print("         *      *        *       *                   ")
+print("      *         *      *         *                  ")
+print("      *********        *********                                  ")
+print("                                                 ")
+print("                                                 ")
+
+'''
+
+a = 3
+b = 3.14
+print(type(a))
+print(type(b))
