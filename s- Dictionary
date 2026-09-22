@@ -1,0 +1,46 @@
+#task1
+# ozim = {'ism':'Asadbek', 'yosh' : '19', 't_yil': 2007}
+# print(ozim)
+# print("Mening ismim ", ozim['ism'], ", men ", ozim['yosh'], "yoshdaman, men ", ozim['t_yil'], "-yilda tug'ilganman.")
+
+#task2
+# ism_taom = {'Ali':'Manti', 'Vali':'Osh', 'Sunnat':'Fri','Asadbek':'Kabob', 'Mirshod':'Chimcha'}
+# print("Ali ", ism_taom['Ali'], "taomini yaxshi ko'radi")
+# print("Vali ", ism_taom['Vali'], "taomini yaxshi ko'radi")
+# print("Sunnat ", ism_taom['Sunnat'], "taomini yaxshi ko'radi")
+# print("Asadbek ", ism_taom['Asadbek'], "taomini yaxshi ko'radi")
+# print("Mirshod ", ism_taom['Mirshod'], "taomini yaxshi ko'radi")
+
+#task3
+# py_syntaxix = {
+#     'int':'Integer',
+#     'str':'String', 
+#     'float':'Float', 
+#     'if':'Agar',
+#     'else':'Aks holda', 
+#     'elif':"Bo'lmasa",
+#     'list':'Royxat',
+#     'dictionary':'lugat',
+#     'for':'uchun',
+#     'loop':'Skil'
+#     }
+# print(py_syntaxix)
+
+#task4
+# a = input("so'z kiriting:")
+# lugat = {
+#     'word':'soz'}
+# if a == 'word':
+#     print(lugat.get("word"))
+# else:
+#     print("Bunday so'z mavjud emas")
+
+#task5
+
+# lugat = {'word':'soz'}
+# # print(lugat.get("word"))
+# print(lugat.get("Salom"))
+# print("Bunday so'z mavjud emas")
+
+
+
