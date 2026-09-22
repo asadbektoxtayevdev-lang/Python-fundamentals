@@ -1,0 +1,72 @@
+#task1
+'''A = True
+ifoda = not A or A
+print(ifoda)'''
+
+#task2
+'''A = True
+ifoda = not A or A and not A
+print(ifoda)'''
+
+#task3
+'''A = False
+B = True
+C = True
+D = False
+
+ifoda = (A and not B) or (C or D) and not (A or B)
+print(ifoda)'''
+
+#task4 
+'''num1 = int(input("Raqam1 : "))
+num2 = int(input("Raqam2 : "))
+ifoda = (num1<0) + (num2<0) # 2,1,0 
+print(ifoda >= 1)'''
+#task5
+'''num1 = int(input("Raqam1 : "))
+num2 = int(input("Raqam2 : "))
+
+ifoda = (num1<0) + (num2<0)
+print(ifoda == 1)'''
+
+#task6
+'''num = int(input("Raqam : "))
+
+ifoda = num%2 ==0
+print("Juft - ", ifoda)
+print("Toq - ", not ifoda)'''
+
+#task7
+'''num = int(input("Raqam : "))
+
+print(num%2 == 0)'''
+
+#task8
+# num = int(input("Raqam : "))
+
+# ifoda = bool((num%2 == 1) + (num<100 and num >10))
+# print("Natija 2 xonali toq son : ", ifoda)
+
+#task9
+'''num = int(input("Son : "))
+
+a = num//100
+b = num//10%10
+c = num%10
+
+ifoda = bool((a != b != c)and(num>=100 and num<=999))
+print("Son 3 xonali va raqamlari turlicha :", ifoda)
+print(num)'''
+
+#task10
+'''num = int(input("Son : "))
+
+a = num//100
+c = num%10
+
+ifoda = bool((a == c)and(num>=100 and num<=999))
+print("Son chapdan va o'ngdan ham o'qiganda bir xil :", ifoda)
+print(num)'''
+
+
+
