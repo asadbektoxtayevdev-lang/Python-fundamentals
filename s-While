@@ -1,0 +1,98 @@
+#task0
+# print("Kiritilgan sonning kvadratini qaytaruvchi dastur.")
+# savol = "Istalgan son kiriting "
+# # savol += "(dasturni to'xtatish uchun 'exit' deb yozing): "
+# qiymat = input(savol)
+# # while True: # abadiy tsikl
+# #     qiymat = input(savol)
+# #     if qiymat == 'exit':
+# #         break # tsiklni to'xtatish
+# #     else:
+#         print(float(qiymat)**2)
+
+#task1
+# print("Kitob so'rovnomasi")
+# savol = "Sevimli kitoblaringizning nomini kiriting: "
+# savol += "(Dasturni to'xtatishni istasangiz stop so'zini yozing)"
+
+# while True:
+#     qiymat = input(savol)
+#     if qiymat == 'stop':
+#         break
+   
+# task2
+
+# while True:
+#     qiymat = input("Yoshingizni kiriting (exit yoki quit dasturni to'xtatish): ")
+#     if qiymat == 'exit' or qiymat == 'quit':
+#         print("Xayr!!!")
+#         break
+#     elif int(qiymat) < 7:
+#         print("Narx-2000")
+#     elif 7 <= int(qiymat) < 18:
+#         print("Narx-3000")
+#     elif 18 <= int(qiymat) < 65:
+#         print("Narx-10000")
+#     elif int(qiymat) >= 65:
+#         print("tekin")
+
+#task3
+# mahsulotlar = []
+
+# while True:
+#     tasdiq = input("Mahsulot qo'shmoqchimisiz? ha/yo'q : ")
+#     if tasdiq == "yo'q":
+#         print("Mahsulotlar ro'yxati: ")
+#         print(mahsulotlar)
+#         break
+#     else:
+#         mahsulot = input("Mahsulot nomi: ")
+#         mahsulotlar.append(mahsulot)
+        
+#task4
+# print("Mahsulotlar haqida ma'lumot to'ldirish")
+# e_bozor = {}
+# ishora = True
+
+# while ishora:
+#     mahsulot = input("Mahsulot nomi: ")
+#     narx = (input(f"{mahsulot}ning narxi: "))
+#     e_bozor[mahsulot] = int(narx)
+    
+#     javob = input("Yana mahsulot qo'shasizmi? (ha/yo'q)")
+#     if javob == "yo'q":
+#         ishora = False
+    
+# for mahsulot, narx in e_bozor.items():
+#     print(f"{mahsulot} narxi:{narx}") 
+
+#task5
+# e_bozor = {}
+# print("Mahsulotlar qo'shamiz")
+
+# ishora = True
+# while ishora:
+#     mahsulot = input("Mahsulot nomi: ")
+#     narx = input("Mahsulot narxi: ")
+#     e_bozor[mahsulot] = int(narx)
+    
+#     javob = input("Mahsulot kerakmi? (ha/yo'q) ")
+#     if javob == "ha":
+#         ishora = False
+
+# sorov = input("Mahsulot nima? ")
+# for mahsulot, narx in e_bozor.items():
+#     if sorov == mahsulot:
+#         print(f"{sorov} ning narxi: {narx} UZS")
+#         break 
+# else:
+#     print("Uzr bizda bunuday mahsulot mavjud emas!!!")
+    
+    
+    
+
+        
+
+
+
+    
