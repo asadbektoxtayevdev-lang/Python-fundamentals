@@ -42,5 +42,116 @@
 # print(lugat.get("Salom"))
 # print("Bunday so'z mavjud emas")
 
+#task6
+# py_lugat = {
+#     'int':'Integer',
+#     'str':'String',
+#     'bool':'boolen',
+#     'print':'chop qilish',
+#     'dotpy':'papka ochish',
+#     'hasthag':'codeni yopish',
+#     'slish':'hashtaglar toplami',
+#     'if':'shart operatori',
+#     'else':'yoki',
+#     'elif':'aks holda'
+# }
+
+# for kalit, qiymat in sorted(py_lugat.items()):
+#     print(f"Kalit: {kalit}")
+#     print(f"Qiymat: {qiymat}")
+
+#task7
+# dav_poy = {
+#     'Uzbekistan':'Tashkent',
+#     'Russion':'Moscow',
+#     'Kazakhistan':'Almata',
+#     'the USA':'Washington',
+#     'Germany':'Berlin',
+#     'the UK':'London'
+# }
+# for kalit, qiymat in sorted(dav_poy.items()):
+#     print(f"Davlat : {kalit}")
+#     print(f"Poytaxt : {qiymat}")
+
+#task8
+# dav_poy = {
+#     'Uzbekistan':'Tashkent',
+#     'Russion':'Moscow',
+#     'Kazakhistan':'Almata',
+#     'the USA':'Washington',
+#     'Germany':'Berlin',
+#     'the UK':'London'
+# }
+   
+# dav = input("Davlat: ")
+# poytaxt = dav_poy.get(dav)
+
+# if poytaxt == None:
+#     print("Ma'lumot mavjud emas")
+# else:
+#     print("Poytaxt : ", poytaxt)
+
+#task9
+'''taom_narx = {
+    'Osh': 25000,
+    'Kabob':30000,
+    'Mastava':35000,
+    'Soup':20000,
+    'Perashki':5000,
+}
+
+taom1 = input("Taom1 : ")
+taom2 = input("Taom2 : ")
+
+menu1 = taom_narx.get(taom1)
+menu2 = taom_narx.get(taom2)
+if menu1 == None:
+    print(taom1, " mavjud emas")
+else:
+    print(taom1, " narxi:",menu1)
+    
+if menu2 == None:
+    print(taom2, " mavjud emas")
+else:
+    print(taom2, " narxi:",menu2)   '''
+
+#task10
+celebrities = {
+    'Beruniy':{'yoshi':'33+',
+               'yonalish':'Matematika',
+               'Joyi':'Xorazm',
+               'Tarixi':'Turkiston'
+               },
+    'Al-Xorazmiy':{'yoshi':'40+',
+               'yonalish':'Falsafa',
+               'Joyi':'Xorazm',
+               'Tarixi':'Turkiston'
+               },
+    'Ibn Sino':{'yoshi':'30+',
+               'yonalish':'Tibbiyot',
+               'Joyi':'Buxoro',
+               'Tarixi':'Turkiston'
+               },
+    'Amir Temur':{'yoshi':'45+',
+               'yonalish':'Harbiy',
+               'Joyi':'Qashqadaryo',
+               'Tarixi':'Movanaunahr'
+               }
+    
+}
+
+for ism, info in celebrities.items():
+    print(f"{ism}{info['yoshi']} yosh,"
+          f"{info['yonalish']} yo'nalish bo'yicha ishlagan,"
+          f"Tu'gilgan joyi : {info['Joyi']},"
+          f"Tarixi:{info['Tarixi']}"
+          
+          )
+
+      
+
+
+
+
 
 
