@@ -1,0 +1,286 @@
+#task0 match a: case b:
+
+'''
+num = int(input("Son kiriting: "))
+
+n_1 = num%10
+n_10 = num//10
+
+match n_10:
+    case 1: print("O'n", end=" ")
+    case 2: print("Yigirma", end=" ")
+    case 3: print("O'ttiz", end=" ")
+    case 4: print("Qirq", end=" ")
+    case 5: print("Ellik", end=" ")
+    case 6: print("Oltmish", end=" ")
+    case 7: print("Yetmish", end=" ")
+    case 8: print("Sakson", end=" ")
+    case 9: print("To'qson", end=" ")
+    
+match n_1:
+    case 1: print("bir")
+    case 2: print("ikki")
+    case 3: print("uch")
+    case 4: print("to'rt")
+    case 5: print("besh")
+    case 6: print("olti")
+    case 7: print("yetti")
+    case 8: print("sakkiz")
+    case 9: print("to'qqiz")
+    '''
+    
+ #task1
+ 
+'''day = int(input("Kun raqamini kiriting: "))
+
+match day:
+    case 1: print("Dushanba")
+    case 2: print("Seshanba")
+    case 3: print("Chorshanba")
+    case 4: print("Payshanba")
+    case 5: print("Juma")
+    case 6: print("Shanba")
+    case 7: print("Yakshanba")
+    case _: print("Bunaqa kun mavjud emas!!!")'''
+
+#task2
+
+'''month = int(input("Oy raqamini kiriting: "))
+
+match month:
+    case 1: print("Yanvar")
+    case 2: print("Fevral")
+    case 3: print("Mart")
+    case 4: print("Aprel")
+    case 5: print("May")
+    case 6: print("Iyun")
+    case 7: print("Iyul")
+    case 8: print("Avgust")
+    case 9: print("Sentabr")
+    case 10: print("Oktabr")
+    case 11: print("Noyabr")
+    case 12: print("Dekabr")
+    case _: print("Bunaqa oy nomi mavjud emas!!!")'''
+    
+#task3
+
+# month = int(input("Oy raqamini kiriting: "))
+
+# match month:
+#     case 1 | 2 | 12: print("Qish fasli")
+#     case 3 | 4 | 5: print("Bahor fasli")
+#     case 6 | 7 | 8: print("Yoz fasli")
+#     case 9 | 10 |11: print("Kuz fasli")
+#     case _: print("Bunday oy mavjud emas!!!")
+
+#task4
+
+# month = int(input("Oy raqamini kiriting: "))
+
+# match month:
+#     case 1: print("Yanvar oyi", end=" ")
+#     case 2: print("Fevral oyi", end=" ")
+#     case 3: print("Mart oyi", end=" ")
+#     case 4: print("Aprel oyi", end=" ")
+#     case 5: print("May oyi", end=" ")
+#     case 6: print("Iyun oyi", end=" ")
+#     case 7: print("Iyul oyi", end=" ")
+#     case 8: print("Avgust oyi", end=" ")
+#     case 9: print("Sentabr oyi", end=" ")
+#     case 10: print("Oktabr oyi", end=" ")
+#     case 11: print("Noyabr oyi", end=" ")
+#     case 12: print("Dekabr oyi" , end=" ")
+#     case _: print("Bunaqa oy mavjud emas!!!")
+    
+# match month:
+#     case 1 | 2 | 12: print("Qish fasli")
+#     case 3 | 4 | 5: print("Bahor fasli")
+#     case 6 | 7 | 8: print("Yoz fasli")
+#     case 9 | 10 | 11: print("Kuz fasli")
+#     case _: print("Bunday oy mavjud emas!!!")
+
+#task5
+
+'''num = int(input("(1-100) chegarada son kiriting: "))
+
+n_10 = num//10%10
+n_1 = num%10
+
+if 1 < num <100:
+    
+ match n_10:
+    case 1: print("O'n", end=" ")
+    case 2: print("Yigirma", end=" ")
+    case 3: print("O'ttiz", end=" ")
+    case 4: print("Qirq", end=" ")
+    case 5: print("Ellik", end=" ")
+    case 6: print("Oltmish", end=" ")
+    case 7: print("Yetmish", end=" ")
+    case 8: print("Sakson", end=" ")
+    case 9: print("To'qson", end=" ")
+    
+ match n_1:
+    case 1: print("bir")
+    case 2: print("ikki")
+    case 3: print("uch")
+    case 4: print("to'rt")
+    case 5: print("besh")
+    case 6: print("olti")
+    case 7: print("yetti")
+    case 8: print("sakkiz")
+    case 9: print("to'qqiz")
+else:
+    print("Son chegarada emas!!!")'''
+
+#task6
+
+'''
+num = int(input("(1-1000) chegarada son kiriting: "))
+
+n_100 = num//100
+n_10 = num//10%10
+n_1 = num%10
+
+if 1 < num <1000:
+ match n_100:
+    case 1: print("Bir yuz ", end = " ")
+    case 2: print("Ikki yuz ", end = " ")
+    case 3: print("Uch yuz ", end = " ")
+    case 4: print("To'rt yuz ", end = " ")
+    case 5: print("Besh yuz ", end = " ")
+    case 6: print("Olti yuz ", end = " ")
+    case 7: print("Yetti yuz ", end = " ")
+    case 8: print("Sakkiz yuz ", end = " ")
+    case 9: print("To'qqiz yuz ", end = " ")
+    
+ match n_10:
+    case 1: print("o'n", end=" ")
+    case 2: print("yigirma", end=" ")
+    case 3: print("o'ttiz", end=" ")
+    case 4: print("qirq", end=" ")
+    case 5: print("ellik", end=" ")
+    case 6: print("oltmish", end=" ")
+    case 7: print("yetmish", end=" ")
+    case 8: print("sakson", end=" ")
+    case 9: print("to'qson", end=" ")
+    
+ match n_1:
+    case 1: print("bir")
+    case 2: print("ikki")
+    case 3: print("uch")
+    case 4: print("to'rt")
+    case 5: print("besh")
+    case 6: print("olti")
+    case 7: print("yetti")
+    case 8: print("sakkiz")
+    case 9: print("to'qqiz")
+else:
+    print("Son chegarada emas!!!")'''
+
+#task7
+
+'''num = int(input("(-100; -1) chegarada son kiriting: "))
+
+n_100 = (-1*num)//100
+n_10 = (-1*num)//10%10
+n_1 = (-1*num)%10
+
+if -100 < num < -1:
+    print("Minus ", end = " ")
+    match n_10:
+     case 1: print("o'n", end=" ")
+     case 2: print("yigirma", end=" ")
+     case 3: print("o'ttiz", end=" ")
+     case 4: print("qirq", end=" ")
+     case 5: print("ellik", end=" ")
+     case 6: print("oltmish", end=" ")
+     case 7: print("yetmish", end=" ")
+     case 8: print("sakson", end=" ")
+     case 9: print("to'qson", end=" ")
+    
+    match n_1:
+     case 1: print("bir")
+     case 2: print("ikki")
+     case 3: print("uch")
+     case 4: print("to'rt")
+     case 5: print("besh")
+     case 6: print("olti")
+     case 7: print("yetti")
+     case 8: print("sakkiz")
+     case 9: print("to'qqiz")
+else:
+    print("Son chegarada emas!!!")'''
+
+#task8
+
+'''num = int(input("(1-1000) chegarada son kiriting: "))
+
+n_100 = (-1*num)//100
+n_10 = (-1*num)//10%10
+n_1 = (-1*num)%10
+
+if -1000 < num < -1:
+    print("Minus", end=" ")
+    match n_100:
+        case 1: print("bir yuz ", end = " ")
+        case 2: print("ikki yuz ", end = " ")
+        case 3: print("uch yuz ", end = " ")
+        case 4: print("to'rt yuz ", end = " ")
+        case 5: print("besh yuz ", end = " ")
+        case 6: print("olti yuz ", end = " ")
+        case 7: print("yetti yuz ", end = " ")
+        case 8: print("sakkiz yuz ", end = " ")
+        case 9: print("to'qqiz yuz ", end = " ")
+    
+    match n_10:
+        case 1: print("o'n", end=" ")
+        case 2: print("yigirma", end=" ")
+        case 3: print("o'ttiz", end=" ")
+        case 4: print("qirq", end=" ")
+        case 5: print("ellik", end=" ")
+        case 6: print("oltmish", end=" ")
+        case 7: print("yetmish", end=" ")
+        case 8: print("sakson", end=" ")
+        case 9: print("to'qson", end=" ")
+    
+    match n_1:
+        case 1: print("bir")
+        case 2: print("ikki")
+        case 3: print("uch")
+        case 4: print("to'rt")
+        case 5: print("besh")
+        case 6: print("olti")
+        case 7: print("yetti")
+        case 8: print("sakkiz")
+        case 9: print("to'qqiz")
+else:
+    print("Son chegarada emas!!!")'''
+
+#task9
+
+'''1 - yomon
+2 - qoniqarsiz
+3 - qoniqarli
+4 - yaxshi
+5 - a'lo
+'''
+# grade = int(input("Baholash uchun son kiriting: "))
+# match grade:
+#     case 1: print("yomon")
+#     case 2: print("qoniqarsiz")
+#     case 3: print("qoniqarli")
+#     case 4: print("yaxshi")
+#     case 5: print("a'lo") 
+#     case _: print("Xato")
+
+#task10
+
+# month = int(input("Oyning tartib raqamini kiriting: "))
+
+# match month:
+#     case 1 | 3 | 5 | 7 | 8 | 12: print("Bu oyda 31 kun mavjud")
+#     case 4 | 6 | 9 | 10 | 11: print("Bu oyda 30 kun mavjud")
+#     case 2: print("Bu oyda 28/28 kun mavjud")
+#     case _: print("Bunday oy mavjud emas")
+    
+
