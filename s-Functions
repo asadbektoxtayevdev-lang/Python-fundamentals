@@ -1,0 +1,71 @@
+#task1 age calculator
+# def yosh_hisobla(tugilgan_yil, ism, joriy_yil = 2026):
+#     """Foydalanuvchi tug'ilgan yilidan uning yoshini hisoblaydi"""
+#     print(f"{ism.title()} siz {joriy_yil-tugilgan_yil} yoshdasiz")
+
+# name = input("Ismingizni kiriting: ")  
+# tyil = int(input("Tug'ilgan yilingizni kiriting: "))
+
+# yosh_hisobla(tyil, name)
+
+#task2
+# def kv_kb(num):
+#     #kub va kvadratni chiqaruvchi funksiya
+#     print(f"{num} ning kv = {num**2} va kub = {num**3}")
+    
+# son = int(input("Son kiriting: "))
+# kv_kb(son)
+
+#task3
+# def toq_juft(num):
+#     # toq yoki juft
+#     if num%2 == 0:
+#         print(f"{num} - juft son")
+#     else:
+#         print(f"{num} - toq son")
+
+# son = int(input("Son kiriting: "))
+# toq_juft(son)
+
+#task4
+# def max_son(a, b):
+#     #max son func
+#     if a > b:
+#         print(f"{a} > {b}")
+#     elif a < b:
+#         print(f"{a} < {b}")
+#     else:
+#         print(f"{a} va {b} sonlari teng")
+
+# son1 = int(input("1 - sonni kiriting: "))
+# son2 = int(input("2 - sonni kiriting: "))
+
+# max_son(son1, son2)
+
+#task5
+# def show_xy(x, y):
+#     print(x, y)
+
+# x = int(input("x - "))
+# y = int(input("y - "))
+
+# show_xy(x, y)
+
+# task6
+# def show_xy(x, y = 2):
+#     print(x, y)
+
+# x = int(input("x - "))
+# show_xy(x)
+
+#task7
+# def son_qoldiq(num):
+#     for i in range(2, 11):
+#         if num%i == 0:
+#             print(f"{num} soni {i} ga qoldiqsiz bo'linadi!!!")
+#         else:
+#             print(f"{num} soni {i} ga qoldiqli bo'linadi")
+
+# son = int(input("Son kiriting: "))
+# son_qoldiq(son)
+
