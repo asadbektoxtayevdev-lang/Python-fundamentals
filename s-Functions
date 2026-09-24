@@ -69,3 +69,118 @@
 # son = int(input("Son kiriting: "))
 # son_qoldiq(son)
 
+#task-1
+
+'''def foy_info(t_yil, ism, familiya, t_joy, joriy_yil = 2026, tel_num = 'None', email = 'None', manzil = 'None'):
+    malumotlar = {
+        't_yil':t_yil,
+        'ism':ism,
+        'familiya':familiya,
+        't_joyi':t_joy,
+        'yoshi':joriy_yil-t_yil,
+        'tel_num':tel_num,
+        'email':email,
+        'manzil':manzil  
+    }
+    return malumotlar
+
+print("Foydalanuvchi ma'lumotlari!!!")
+
+malumotlar = []
+
+t_yil = int(input("Tug'ilgan yilingiz: "))
+ism = input("Ismingiz: ")
+familiya = input("Familiyangiz: ")
+t_joy = input("Tug'ilgan joyingiz: ")
+
+javob = input("Tel raqam, email va manzilingizni kirtishni xohlaysizmi? (ha/yo'q) ")
+if javob == "yo'q":
+    malumotlar.append(foy_info(t_yil, ism, familiya, t_joy, joriy_yil = 2026))
+else:
+    tel_num = int(input(f"Raqamingiz +{998}"))
+    email = input("Email: ")
+    manzil = input("Manzil: ")
+    malumotlar.append(foy_info(t_yil, ism, familiya, t_joy, tel_num , email , manzil))
+
+print("Foydalanuvchi ma'lumotlari !!!\n", malumotlar)'''
+
+#task-2
+
+'''def foy_info(t_yil, t_joy, ism, familiya, joriy_yil = 2026, tel_num = 'None', email = 'None', manzil = 'None'):
+    malumotlar = {
+        't_yil':t_yil,
+        't_joy':t_joy,
+        'ism':ism,
+        'familiya':familiya,
+        'yoshi':joriy_yil - t_yil,
+        'tel_num':tel_num,
+        'email':email,
+        'manzil':manzil
+        
+    }
+    return malumotlar 
+
+
+print("Foydalanuvchi ma'lumotlarini kiritish !!!")
+
+malumotlar = []
+while True:
+    t_yil = int(input("Tugilgan yilingiz: "))
+    ism = input("Ismingiz: ")
+    familiya = input("Familiyangiz: ")
+    t_joy = input("Tug'ilgan joyingiz: ")
+    
+    ishora = input("Tel raqam, email va manzilni qo'shishni xohlaysizmi? (ha/yo'q) ")
+    if ishora == "yo'q" :
+        malumotlar.append(foy_info(t_yil, t_joy, ism, familiya))
+        break
+    else:
+        tel_num = int(input(f"Tel raqam: +{998} "))
+        email = input("Email -- ")
+        manzil = input("Manzilni kiriting: ")
+    malumotlar.append(foy_info(t_yil, t_joy, ism, familiya, tel_num, email, manzil))
+
+i = 1
+for malumot in malumotlar:
+    print(f"{i} - foydalanuvchi ma'lumotlari\n {malumot}")
+    i += 1
+'''
+
+#task-3
+
+# def max_son(a, b, c):
+#     return max(a,b,c)
+
+# a = int(input("Son1: "))
+# b = int(input("Son2: "))
+# c = int(input("Son3: "))
+
+# print("Max son: ", max_son(a,b,c))
+
+#task-4
+
+# def aylana_info(r):
+#     malumotlar = {
+#         'radius':r,
+#         'diametr':2*r,
+#         'yuzi':3.14*r*r,
+#         'perimetr':2*3.14*r
+#     }
+#     return malumotlar
+
+# r = int(input("Aylana radiusi: "))
+# print("Aylana ma'lumotlari!!!\n", aylana_info(r))
+
+#task-5
+def tub_sonlar(num):
+    tub_list = []
+    i , j = 2, 1
+    for i in range(num+1):
+         for j in range(num +1):
+            if (i %j == 0 and i%i == 0):
+                tub_list.append(i)
+            i += 1
+    return tub_list  
+         
+n = int(input(" 1 dan boshlab qaysi oraqliqdagi tub sonlarni ko'rishni xohlaysiz? "))
+print(f"1 dan boshlab {n} oraliqdagi tub sonlar: {tub_sonlar(n)}")
