@@ -1,0 +1,53 @@
+#list
+#taks1  1-len(), 2 - sorted( ,reverse = True), 3 - .reverse(), 4 - .sort()
+
+# davlatlar = ["O'zbekiston", "Turkmaniston", "Qozog'iston", "Qirg'iziston", "Tojikiston"]
+# print("List uzunligi: ", len(davlatlar)) 
+# print("Sorted list : ", sorted(davlatlar, reverse=True))
+# print(f"Markaziy Osiyo davlatlari : {davlatlar}")
+# davlatlar.reverse()
+# print(davlatlar)
+# print("sort davlatlar: ", (davlatlar))
+# davlatlar.sort()
+# print("sort davlatlar: ", davlatlar) 
+# davlatlar.reverse()
+# print("sort -> reverse davlatlar: ", davlatlar)
+
+#task2  1- range(s]a, b+1, c), 2 - sum(list), 3 - max or min(list), 4 - leng(list), 5 - a.list = list[:], list[:a], list[-a:]
+
+# num_juft = []
+# num_juft = list(range(120, 1200, 2))
+# sum_list = sum(num_juft)
+# # print("Juft sonlar: ", num_juft)
+# print("Sum list - ", sum_list)
+# print(f"{max(num_juft)} - {min(num_juft)} = ", max(num_juft) - min(num_juft))
+# print("Elementlar soni: ", len(num_juft))
+# print("Oxiridan: ", num_juft[:20])
+# print("Boshidan: ", num_juft[-20:])
+# print("O'rtasidan: ", num_juft[270:290])
+
+#task3 1 - list = [], 2 - list1 = list[:], 3 - list.pop(num), 4 - list.append(num), 5 - list[num] = " " , 6 - tuple(list), list = () -> tuple
+
+# taomlar = ['Manti', 'Osh', 'Somsa', 'Shashlik', 'Makaron']
+# nonushta = taomlar[:]
+# nonushta.pop(-1)
+# nonushta.pop(0)
+# nonushta.append("Sut")
+# nonushta.append("Asal")
+# nonushta[0] = "Asal"
+# print(taomlar)
+# print(nonushta)
+
+# nonushta = tuple(nonushta)
+# nonushta = list(nonushta)
+# nonushta[0] = 'Non va qaymoq'
+# nonushta = tuple(nonushta)
+# print(nonushta)
+# print(type(nonushta))
+
+
+
+
+
+
+
