@@ -1,0 +1,37 @@
+#taks1
+
+# dostlar = ['Anvar', 'Vali', 'Ali', 'Hamro', 'Husan']
+# i = 0
+# for dost in dostlar:
+#     print(f"Salom do'stim {dost}")
+#     i += 1
+# print("Bular mening do'stlarim!!!")
+# print("Kod", i , "marta takrorlandi")
+
+#task2 1 - list = range(a, b, c), 2 - list_name = list(range(a,b,c))
+
+# sonlar = []
+# sonlar = range(11, 101, 2)
+
+# for num in sonlar:
+#     print(f"{num} ^3 = {num**3}")
+
+#task3 1 - list.append(input(""))
+
+# sevimli_filmlar = []
+# print("Sevimli filmlarni kiriting: ")
+
+# for n in range(5):
+#     sevimli_filmlar.append(input(f"{n + 1}- film: "))
+# print(sevimli_filmlar)
+
+#task4 
+# n = int(input("Bugun nechta odam bilan ko'rishdingiz? "))
+# tanishuvlar = []
+# for i in range(n):
+#     tanishuvlar.append(input(f"{i + 1} - odamning ismi: "))
+# print(tanishuvlar)
+
+
+
+
