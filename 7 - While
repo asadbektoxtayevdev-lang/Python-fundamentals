@@ -1,0 +1,139 @@
+#task1
+# a = 1
+# while a <= 10:
+#     print(a)
+#     a += 1
+# else:
+#     print("Yuqoridagi natijalar 10 ga yetdi")
+
+#task2
+# son = int(input("Son kiriting: "))
+# a = 1
+# while a <= 10:
+#     print(f"{son} * {a} = {son*a} ")
+#     a += 1
+
+#task3
+# a = 2
+
+# while a <= 20:
+#     print(a)
+#     a += 2
+
+#task4
+# a = 1
+
+# while a <= 20:
+#     print(a)
+#     a += 2
+
+#task5
+# a = int(input("A soni : "))
+# b = int(input("B soni : "))
+# sum = 0
+
+# while a <= b:
+#     sum = sum + a
+#     a += 1
+
+# print("Sum: ", sum)
+
+#task6
+# a = int(input("A soni : "))
+# b = int(input("B soni : "))
+# kopaytma = 1
+
+# while a <= b:
+#     kopaytma = kopaytma * a
+#     a += 1
+
+# print("Ko'payma: ", kopaytma)
+
+#task7
+# a = int(input("A soni : "))
+# b = int(input("B soni : "))
+
+# while a <= b:
+#     if a % 2 == 1:
+#      a += 1
+#     else:
+#         print(a)
+#         a += 2
+
+#task8
+
+# a = int(input("A soni : "))
+# b = int(input("B soni : "))
+
+# while a <= b:
+#     if a % 2 == 0:
+#      a += 1
+#     else:
+#         print(a)
+#         a += 2
+
+#task9
+
+# a = int(input("A soni : "))
+# b = int(input("B soni : "))
+# sum = 0
+# kopaytma = 1
+# while a <= b:
+#     if a % 2 == 0:
+#      sum += a
+#     else:
+#         kopaytma *= a
+#     a +=1
+
+# print(f"Yig'indi: {sum}, Ko'paytma: {kopaytma}")
+
+#task10
+
+# n = int(input("Son kiriting: "))
+# i = 1
+# while i <= n:  
+#     if n % i == 0:
+#         print(i)
+#     i += 1
+
+#task11
+
+# n = int(input("Son kiriting: "))
+# i = 1
+# sum = 0
+# while i < n:  
+#     if n % i != 0:
+#         sum += i
+#     i += 1
+# print("Summa = ", sum)
+
+#task12
+
+# n = int(input("Son kiriting: "))
+# i = 1
+# sum = 0
+# while i < n:  
+#     if n % i == 0:
+#         sum += i
+#     i += 1  
+# if sum == n:
+#     print("Mukammal son !!!", sum , n)
+# else:
+#     print("Mukammal son emas !!!", sum , n)
+
+#task13
+
+# n = int(input("Son kiriting: "))
+# a = n
+# sum = 0
+# while n > 0:
+#     i = n % 10
+#     n = n//10
+#     sum += i
+#     print(i)
+# print("Sum = ", sum, " n = ", a)  
+
+
+
+
+
