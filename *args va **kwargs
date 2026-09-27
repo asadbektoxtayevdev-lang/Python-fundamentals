@@ -1,0 +1,22 @@
+#task1 1 - *args 
+
+# def kopaytma(*sonlar):
+#     kopaytma0 = 1
+#     for son in sonlar:
+#         kopaytma0 *= son
+#     return kopaytma0
+
+# print(kopaytma(1,2,3,4,5))
+
+#task2 1 - **kwargs, 2 - **kwargs = dictionary, 3 - dictionary('info')
+
+# def talaba(ism, familiya, **malumotlar):
+#     malumotlar['ism'] = ism
+#     malumotlar['familiya'] = familiya
+#     return malumotlar
+
+# talaba1 = talaba('Ali', 'Valiyev', yosh = 19, manzil = 'Olot')
+# talaba2 = talaba('Quvonch', 'Umarov', yosh = 20, oqiydimi = 'ha')
+
+# print(talaba1)
+# print(talaba2)
