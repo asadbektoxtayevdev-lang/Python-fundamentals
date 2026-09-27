@@ -1,0 +1,29 @@
+#task1
+# def ism(lism):
+#     for name in lism:
+#         print(f"{name.title()}")
+        
+# ismlar = ['husan', 'hasan', 'murod']
+# ism(ismlar)
+
+# task2
+
+# def ism(lism):
+#     for name in lism:
+#         print(f"{name.title()}")
+# ismlar = ['husan', 'hasan', 'murod']
+# ism(ismlar)
+
+#task3
+
+# def ism(lism):
+#     for name in lism:
+#         print(f"{name.title()}")
+# ismlar = ['husan', 'hasan', 'murod']
+# ism(ismlar)
+
+
+
+
+
+
