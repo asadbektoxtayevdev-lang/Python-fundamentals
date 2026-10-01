@@ -1,0 +1,186 @@
+# task 1
+
+# for i in range(1, 11):
+#     print(i)
+    
+# task 2
+
+# n = int(input("N = "))
+# sum = 0
+# for i in range(1, n+1):
+#     sum += i
+# print("Yig'indi: ", sum)
+
+# task 3
+
+# n = int(input("N = "))
+
+# print("Juft sonlar: ")
+# for i in range(2, n+1, 2):
+#     print(i)
+
+# task 4
+
+# n = int(input("N = "))
+
+# print("Toq sonlar: ")
+# for i in range(1, n+1, 2):
+#     print(i)
+
+# task 5
+
+# n = int(input("N = "))
+
+# print(f"{n} sonning kara jadvali: ")
+# for i in range(1, 11):
+#     print(f"{n} * {i} = {n * i}")
+
+# task 6
+
+# for i in range(1,11):
+#     print(f"{i} * {i} = {i * i}")
+    
+# task 7
+
+# a = int(input("a = "))
+# b = int(input("b = "))
+# print("a va b oraliqdagi sonlar: ")
+# for i in range(b-1, a, -1):
+#     print(i)
+
+# task 8
+
+# n = int(input("N = "))
+
+# fak = 1
+# for i in range(1, n+1):
+#     fak *= i 
+    
+# print("Faktorial = ", fak)   
+
+# task 9
+
+# n = input("N = ")
+
+# yigindi = 0
+# for i in n:
+#     yigindi += int(i)
+
+# print(yigindi)
+
+# task 10
+
+# n = int(input("N = "))
+
+# sum = 0
+# for i in range(1, n+1):
+#     sum += i*i
+    
+# print("Sum = ", sum)  
+
+# task 11
+
+# numbers = []
+# for i in range(1,11):
+#     numbers.append(int(input(f"{i} - son: ")))
+# print("Eng katta son: ", max(numbers))
+
+# task 12
+
+# n = int(input("N = "))
+
+# print(f"{n} sonining bo'luvchilari: ")
+# for i in range(1, n+1):
+#     if n%i == 0:
+#         print(i)
+
+# task 13
+
+# unli = ['a', 'e', 'i', 'o', 'u']
+
+# j = 0
+
+# string = input("Satr kiriting: ")
+
+# for i in range(len(string)):
+#     if string[i] in unli:
+#         j += 1
+
+# print(f"{j} ta unli mavjud!!!")
+
+# task 14
+
+# satr = input("Satr: ")
+
+# for i in range(len(satr)-1, -1, -1):
+#     print(satr[i])
+
+# task 15
+
+# satr = input("Satr: ")
+# space = " "
+# j = 0
+
+# for i in range(len(satr)):
+#     if satr[i] in space:
+#         j += 1
+        
+# print(f"{j} ta space mavjud !!!")
+
+# task 16
+
+# n = int(input("N = "))
+
+# for i in range(1, n+1):
+#     if i%3 == 0 and i%5 == 0:
+#         print(i)
+
+# task 17
+# raqamlar = []
+
+# while True:
+#     javob = input("Son qo'shasizmi? (ha/yo'q) ")
+#     if javob == 'ha':
+#         raqamlar.append(int(input("son: ")))
+#     else:
+#         break
+# sum = 0
+# for i in raqamlar:
+#     sum += i
+
+# print("Average: ", sum/len(raqamlar))
+
+# task 18
+
+# katta = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
+#          'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+
+# kichik = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
+#           'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+# ki = 0
+# ka = 0 
+
+# satr = input("Satr: ")
+# for i in range(len(satr)):
+#     if satr[i] in kichik:
+#         ki += 1 
+#     if satr[i] in katta:
+#         ka += 1
+    
+# print(f"{ka} katta harf va {ki} kichik harf")
+
+# task 19
+
+# print("Tub sonlar: ")
+
+
+# for i in range(2, 101):
+#     k = 0
+    
+#     for j in range(1,i+1):
+#      if i % j == 0:
+#         k += 1
+        
+#     if k == 2:
+#       print(i)
+
