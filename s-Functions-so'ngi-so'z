@@ -1,0 +1,78 @@
+# # task1
+# son_ildizi = lambda a: a**(1/2)
+# print(son_ildizi(2))
+
+# task2
+# avg = lambda a,b,c: (a + b + c)/3
+# print("O'rta arfimetik: ", avg(1,2,3))
+
+# task3
+
+# sonlar = [100, 200, 300, 450]
+
+# def onfoiz(num):
+#     return int(num*1.1)
+
+# print(list(map(onfoiz, sonlar)))
+  
+# task4
+
+# talabalar = ['ali', 'VALI', 'haSan', 'Husan']
+
+# def ismlar(ism):
+#     return ism.lower().title()
+
+# print(list(map(ismlar, talabalar)))
+
+# task5
+
+# sonlar = range(101)
+
+# def uchvabesh(n):
+#     return n%3 == 0 or n%5 == 0
+
+# print(list(filter(uchvabesh, sonlar)))
+
+# task6
+
+# mevalar = ['olma', 'banan', 'anor', 'shaftoli', 'uzum', 'qovun']
+
+# def unli(meva):
+#     if meva[0] == 'o' or meva[0] == 'a' or meva[0] == 'u':
+#         return meva
+    
+# print("Unli harf bilan boshlanadigan mevalar: ")
+# print(list(filter(unli, mevalar)))
+
+'''E-shop mini loyihasi'''
+
+'''mahsulotlar = [
+    {"nomi": "Noutbuk", "narxi": 800, "omborda": True},
+    {"nomi": "Sichqoncha", "narxi": 15, "omborda": True},
+    {"nomi": "Klaviatura", "narxi": 45, "omborda": False},
+    {"nomi": "Monitor", "narxi": 250, "omborda": True},
+    {"nomi": "Quloqchin", "narxi": 30, "omborda": False},
+]
+
+def fil(mahsulot):
+   return  mahsulot['omborda'] and mahsulot['narxi'] >= 50
+    
+
+print(list(filter(fil, mahsulotlar)))
+print("#######################################################################")
+print()
+print()
+
+def map15(mahsulot):
+    mahsulot['narxi'] *= 1.15
+    return mahsulot
+
+print(list(map(map15, mahsulotlar)))
+print("#######################################################################")
+print()
+print()
+  
+def sort(mahsulotlar):
+    return sorted(mahsulotlar, key=lambda x: x['narxi'])
+
+print(sort(mahsulotlar))'''
