@@ -1,0 +1,113 @@
+# task1
+
+# raqamlar = [1,2,3,4,5]
+# print(raqamlar)
+# raqamlar.append(11)
+# print(raqamlar)
+
+# task2
+
+# mevalar = ['olma', 'anor', 'uzum', 'nok', 'banan', 'gilos']
+# print(mevalar[:3])
+
+# task3
+
+# raqamlar = [1,2,3,4,5,6,7,8,9,10]
+# raqamlar[4] = 50
+# print(raqamlar)
+
+# task4
+
+# mevalar = ['anor', 'uzum', 'nok', 'banan', 'gilos', 'olma']
+
+# if 'olma' in mevalar:
+#     print("Olma mavjud")
+# else:
+#     print("Olma mavjud emas")
+
+# task5
+
+# raqamlar = [1,3,5,7,9,11,14,15,18,19,22]
+
+# for i in raqamlar:
+#     print(i*2, end=", ")
+        
+# task6
+
+# ismlar = ['Asadbek', 'Sardor', 'Vali', 'Ali', 'Mirshod']
+
+# for i in ismlar:
+#     if len(i) > 5:
+#         print(i)
+
+# task7
+
+# raqamlar = [1,4,7,3,22,8,5]
+
+# print("Eng katta son: ", max(raqamlar))
+# print("Eng kichik son: ", min(raqamlar))
+
+# task8
+
+# kvadratlar = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+# juft_sonlar = []
+
+# for i in kvadratlar:
+#     if i%2 == 0:
+#         juft_sonlar.append(i)
+        
+# print(juft_sonlar)
+
+# task9
+
+# dasturlash_tillari = ["Python", "Java", "Python", "C++", "Python"]
+# k = 0
+
+# for i in dasturlash_tillari:
+#     if i.lower() == 'python':
+#         k += 1
+    
+# print(f"python so'zi {k} marta foydalanilgan")
+
+# task10
+# sonlar = [1, 2, 2, 3, 4, 4, 5]
+# tartiblangan = []
+
+# for son in sonlar:
+#     if son not in tartiblangan:
+#         tartiblangan.append(son)
+        
+# # tartiblangan = set(sonlar)      
+# print(list(tartiblangan))
+
+
+
+# task11
+
+# sonlar = [10, 20, 30, 40]
+# reversed_sonlar = []
+
+''' 
+# print(list(reversed(sonlar)))
+# for i in range(len(sonlar) +1):
+
+# while len(sonlar):
+#     reversed_sonlar.append(sonlar.pop())   
+'''
+
+# for i in range(len(sonlar)-1, -1, -1):
+#      reversed_sonlar.append(sonlar[i])
+
+# print(reversed_sonlar)
+
+
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
