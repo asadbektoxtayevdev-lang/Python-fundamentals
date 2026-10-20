@@ -1,0 +1,66 @@
+class Shaxs:
+    __shaxs_c = 0
+    def __init__(self, ism, familiya, email, tel):
+        self.ism = ism
+        self.familiya = familiya
+        self.email = email
+        self.__tel = tel
+        Shaxs.__shaxs_c += 1
+        
+    def get_tel(self):
+        return self.__tel
+    
+    def change_tel(self, tel):
+        self.__tel = tel
+        return self.__tel
+
+    @classmethod
+    def get_shaxs_c(cls):
+            return cls.__shaxs_c
+    
+
+class Talaba(Shaxs):
+    __talaba_c = 0
+    def __init__(self, ism, familiya, email, tel, id):
+        super().__init__(ism, familiya, email, tel)
+        self.__id = id
+        Talaba.__talaba_c += 1
+        
+    def get_id(self):
+        return self.__id
+    
+    def change_id(self, id):
+        self.__id = id
+        return self.__id
+    
+    @classmethod
+    def get_talaba_c(cls):
+        return cls.__talaba_c
+
+# task1  
+shaxs1 = Shaxs('Asadbek', "To'xtayev", 'asadbektoxtayev@gmail.com', "+998999961666")
+print(shaxs1.get_tel())
+print(shaxs1.change_tel("+998501234567"))
+
+talaba1 = Talaba("Farrux", "Tursunboyev", "tfarrux", "+998501247568", "AC123")
+print(talaba1.get_id())
+print(talaba1.change_id("AE1234"))
+print(talaba1.get_id())
+
+talaba2 = Talaba("Farrux", "Tursunboyev", "tfarrux", "+998501247568", "AC1235")
+print(talaba2.get_id())
+print(talaba2.change_id("AE12345"))
+print(talaba2.get_id())
+
+
+# task2
+print(Shaxs.get_shaxs_c())
+print(Talaba.get_talaba_c())
+print(Talaba.get_shaxs_c())
+
+
+
+        
+    
+    
+        
